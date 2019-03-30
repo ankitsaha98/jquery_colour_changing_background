@@ -1,0 +1,44 @@
+body {
+  background-image: url("back.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ndiv{
+
+	
+	width: 75px;
+
+ border-radius: 10px;
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s, background-color 1s;
+}
+.ndiv:hover{
+	width: 100px;
+	background-color: #c2c2a3;
+}
+.ndiv1{
+	transition: background-color 1s;
+}
+.ndiv1:hover{
+	
+	background-color: #c2c2a3;
+}
+.navbar{
+	transition: height 1s;
+}
+.bb{
+	height: 300px;
+	
+	background-color: #c2c2a3;
+	opacity: 0.5;
+  -webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+  transition: background-color 2s;
+}
+.bb:hover{
+	background-color:red;
+}
+.nav-link{
+	transition: color 2s;
+}
